@@ -12,7 +12,7 @@ header['accept']= 'text/event-stream'
 header["Content-Type"] = "application/json"
 print(url)
 
-question =  "政务网DSC?"
+question =  ""
 
 data = {
   "message": question,
