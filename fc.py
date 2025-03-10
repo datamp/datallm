@@ -8,22 +8,6 @@ text = "企业的信用评价扣分的标准内容。"
 cuts =jieba.cut(text,cut_all=True)
 print("|".join(cuts))
 
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from sklearn.metrics.pairwise import cosine_similarity
-# import nltk
-#
-# nltk.download('punkt')  # 下载必要的NLTK数据集
-# from nltk.tokenize import word_tokenize
-#
-# text1 = "统一社会信用代码"
-# text2 = "信用代码"
-#
-# # 将文本转换为TF-IDF特征向量
-# vectorizer = TfidfVectorizer().fit_transform([text1, text2])
-# similarity = cosine_similarity(vectorizer)
-# print(f"Similarity: {similarity[0][1]:.2f}")  # 输出两个文本之间的余弦相似度
-#
-
 
 import difflib
 
