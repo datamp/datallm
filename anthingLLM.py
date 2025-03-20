@@ -2,8 +2,8 @@ import json
 
 import requests
 
-api_key = "8K9FEWC-8Y0MYJW-KJC25ZD-WBVE1Z4"
-slug = "e0c1935b-3b7b-4c00-9ef7-711bff235393"
+api_key = ""
+slug = ""
 url = f"http://localhost:3001/api/v1/workspace/{slug}/chat"
 
 header = {}
