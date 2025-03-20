@@ -38,7 +38,7 @@ def build_prompt(dept,duty,system,db, table, column, dtype, comment):
      return prompt
 
 def call_llm_api(prompt):
-    client = OpenAI(api_key="olloma", base_url="http://10.17.111.59:11434/v1")
+    client = OpenAI(api_key="olloma", base_url="http://ip:11434/v1")
     
     response = client.chat.completions.create(
         model="deepseek-r1:70b",
