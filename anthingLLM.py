@@ -4,7 +4,7 @@ import requests
 
 api_key = ""
 slug = ""
-url = f"http://localhost:3001/api/v1/workspace/{slug}/chat"
+url = f"http://ip:3001/api/v1/workspace/{slug}/chat"
 
 header = {}
 header['Authorization'] = f'Bearer {api_key}'
