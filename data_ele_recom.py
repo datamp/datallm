@@ -38,7 +38,7 @@ def build_system_prompt():
     return character
 
 def call_llm_api(character,prompt):
-    client = OpenAI(api_key="olloma", base_url="http://ip:11434/v1")
+    client = OpenAI(api_key="olloma", base_url="http://ip:/v1")
     response = client.chat.completions.create(
         model="deepseek-r1:70b",
         messages=[
@@ -54,7 +54,7 @@ def call_llm_api(character,prompt):
 
 
 def call_llm_api_train(character,prompt,answer):
-    client = OpenAI(api_key="olloma", base_url="http://10.17.111.59:11434/v1")
+    client = OpenAI(api_key="olloma", base_url="http://ip:11434/v1")
     content = f"Answer:{answer}"
     response = client.chat.completions.create(
         model="deepseek-r1:70b",
