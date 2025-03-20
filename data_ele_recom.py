@@ -14,7 +14,7 @@ import pandas as pd
 
 def build_user_prompt(data_eles, column, dtype, comment):
      prompt = f"""
-     以下是应急管理部定义的数据元标准规范： 
+     以下是定义的XXXX数据元标准规范： 
 {data_eles}
      现在有一条来自元数据管理平台的字段元数据信息：     
      - 字段名：{column}    
@@ -26,7 +26,7 @@ def build_user_prompt(data_eles, column, dtype, comment):
  
     
 def build_system_prompt():
-    character = """你是一位数据标准专家，熟悉应急管理行业以及数据标准管理,可以根据字段与数据元的语义相似度进行字段数据元推荐。  
+    character = """你是一位数据标准专家，熟悉XXXX行业以及数据标准管理,可以根据字段与数据元的语义相似度进行字段数据元推荐。  
      输出JSON格式，形如：    
      {      
        "data_ele": <推荐数据元>,      
