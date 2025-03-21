@@ -4,5 +4,8 @@
 (二)、使用大模型的能力进行数据字段和数据元推断
 (三)、数据管理术语、标准、规范的等知识库
 
+社区与支持
+微信 👉：扫描下方二维码，邀请您加入 DataLLM 社区。
+![image](https://github.com/user-attachments/assets/f5aae4fb-5e8d-4d1e-a5ea-be6d8cd435fb)
 
 我们欢迎您为 DataLLM 做出贡献，以帮助改善 DataLLM。包括：提交代码、问题、新想法，或分享您基于 DataLLM 创建的有趣且有用的 Data AI 应用程序。同时，我们也欢迎您在不同的活动、会议和社交媒体上分享 DataLLM。
